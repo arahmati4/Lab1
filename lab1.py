@@ -3,6 +3,11 @@ def calculate_age():
     current_year = 2024
     age = current_year - birth_year
     print("Your age is:", age)
+try:
+   
+except TypeError:
+    print("Please enter an integer.")
+
 
 # Call the function to test it
 calculate_age()
