@@ -6,3 +6,8 @@ def calculate_age():
 
 # Call the function to test it
 calculate_age()
+
+def helloWorld():
+    print('Hello World')
+
+helloWorld()
